@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F2F2F2;
 }
 
 .App-logo {
@@ -35,4 +36,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.nav nav-tabs{
+  display:flex !important;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+
+.nav-tabs{
+  border-bottom: none !important;
+}
+
+.nav-tabs li{
+  width: 140px !important;
+  height: 35px;
+  border-radius: 25px;
+  text-align: center ;
+  background-color: white;
+  border-color: 1px solid #e5dfdf;
+}
+
+ul{
+  display:flex !important;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+
+.nav-tabs .nav-link{
+  text-align: center !important;
+  margin-left: 22px;
+  padding-bottom: 15px !important;
+}
+
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  width: 140px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #FF6F00;
+  border-color: none;
+  padding-right: 22px;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #0a58ca !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: none !important;
 }
